@@ -14,11 +14,11 @@
         <url-pattern>/AuthServlet</url-pattern>
     </servlet-mapping>
     
+
     <servlet>
         <servlet-name>DriverServlet</servlet-name>
         <servlet-class>com.megacab.controller.DriverServlet</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>DriverServlet</servlet-name>
         <url-pattern>/DriverServlet</url-pattern>

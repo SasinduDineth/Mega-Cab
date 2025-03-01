@@ -10,7 +10,7 @@
     <h2>Admin Dashboard</h2>
     
     <ul>
-        <li><a href="manage_drivers.jsp">Manage Drivers</a></li>
+        <li><a href="manageDriver.jsp">Manage Drivers</a></li>
         <li><a href="ManageRidesServlet">Manage Rides</a></li>
         <li><a href="ManageCustomersServlet">Manage Customers</a></li>
         <li><a href="logout">Logout</a></li>
