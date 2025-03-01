@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MegeCab/web/login.jsp</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MegeCab/src/java/com/megacab/controller/AuthServlet.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MegeCab/src/java/com/megacab/dao/DriverDAO.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MegeCab/src/java/com/megacab/dao/UserDAO.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MegeCab/web/META-INF/context.xml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MegeCab/web/admin_dashboard.jsp</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MegeCab/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MegeCab/src/java/com/megacab/controller/AdminDashboardServlet.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MegeCab/src/java/com/megacab/dao/DatabaseConnection.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MegeCab/src/java/com/megacab/controller/DriverServlet.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MegeCab/web/manage_drivers.jsp</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MegeCab/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MegeCab/src/java/com/megacab/dao/AdminDAO.java</file>
+        </group>
+    </open-files>
+</project-private>

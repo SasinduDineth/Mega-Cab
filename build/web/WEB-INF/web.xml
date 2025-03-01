@@ -13,6 +13,26 @@
         <servlet-name>AuthServlet</servlet-name>
         <url-pattern>/AuthServlet</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DriverServlet</servlet-name>
+        <servlet-class>com.megacab.controller.DriverServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DriverServlet</servlet-name>
+        <url-pattern>/DriverServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    <servlet-name>AdminDashboardServlet</servlet-name>
+    <servlet-class>controller.AdminDashboardServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminDashboardServlet</servlet-name>
+    <url-pattern>/adminDashboard</url-pattern>
+</servlet-mapping>
 
     <!-- Welcome Page -->
     <welcome-file-list>

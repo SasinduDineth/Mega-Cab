@@ -26,7 +26,7 @@ public class AuthServlet extends HttpServlet {
 
             // Redirect based on role
             if ("admin".equalsIgnoreCase(role)) {
-                response.sendRedirect("AdminDashboard.jsp");
+                response.sendRedirect("admin_dashboard.jsp");
             } else {
                 response.sendRedirect("CustomerDashboard.jsp");
             }
