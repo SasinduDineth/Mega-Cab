@@ -55,4 +55,13 @@ public class DriverDAO {
         }
         return false;
     }
+    public Driver getDriverByVehicleType(String vehicleType) {
+    Driver driver = null;
+    // Query the database to find a driver who has the specified vehicle type
+    String query = "SELECT * FROM drivers WHERE vehicle_type = ? AND available = true LIMIT 1";
+    // Execute the query and retrieve the driver details
+    // If a driver is found, return the driver object
+    return driver;
+}
+
 }

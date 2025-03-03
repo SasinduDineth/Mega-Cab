@@ -28,7 +28,7 @@ public class AuthServlet extends HttpServlet {
             if ("admin".equalsIgnoreCase(role)) {
                 response.sendRedirect("admin_dashboard.jsp");
             } else {
-                response.sendRedirect("CustomerDashboard.jsp");
+                response.sendRedirect("customer_dashboard.jsp");
             }
         } else {
             response.sendRedirect("login.jsp?error=1");

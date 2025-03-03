@@ -15,5 +15,6 @@
         <input type="password" name="password" placeholder="Password" required>
         <button type="submit">Login</button>
     </form>
+    <p>New user? <a href="register.jsp">Register here</a></p>
 </body>
 </html>
