@@ -17,20 +17,32 @@
         <p style="color:red;">Booking failed. Try again!</p>
     <% } %>
     
-    <form action="BookRideServlet" method="post">
-        <label>Pickup Location:</label>
-        <input type="text" name="pickup" required><br>
+<form action="RideServlet" method="post">
+    <label for="pickup">Pickup Location:</label>
+    <input type="text" id="pickup" name="pickup" required><br>
 
-        <label>Drop-off Location:</label>
-        <input type="text" name="dropoff" required><br>
+    <label for="dropoff">Drop-off Location:</label>
+    <input type="text" id="dropoff" name="dropoff" required><br>
 
-        <label>Distance (km):</label>
-        <input type="number" step="0.1" name="distance" required><br>
+    <label for="vehicleType">Select Vehicle Type:</label>
+    <select id="vehicleType" name="vehicleType" required>
+        <option value="Car">Car</option>
+        <option value="Van">Van</option>
+        <option value="Bike">Bike</option>
+    </select><br>
 
-        <button type="submit">Book Ride</button>
-    </form>
-    
-    
+    <label for="distance">Distance (km):</label>
+    <input type="number" id="distance" name="distance" step="0.1" required><br>
+
+    <label for="paymentMethod">Payment Method:</label>
+    <select id="paymentMethod" name="paymentMethod" required>
+        <option value="Cash">Cash</option>
+        <option value="Card">Card</option>
+    </select><br>
+
+    <button type="submit" name="action" value="bookRide">Book Ride</button>
+</form>
+
     
 
 </body>

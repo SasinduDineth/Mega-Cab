@@ -35,6 +35,7 @@
             <td><%= ride[4] %></td>
             <td><%= ride[5] %></td>
         </tr>
+        
         <% 
                 }
             } else { 

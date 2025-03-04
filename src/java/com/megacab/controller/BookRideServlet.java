@@ -1,6 +1,6 @@
 package com.megacab.controller;
 
-import com.megacab.dao.BookingDAO;
+import com.megacab.dao.RideDAO;
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,21 +18,18 @@ public class BookRideServlet extends HttpServlet {
             return;
         }
 
-        // Get values from form
         String pickup = request.getParameter("pickup");
         String dropoff = request.getParameter("dropoff");
-        double distance = Double.parseDouble(request.getParameter("distance"));
+        String vehicleType = request.getParameter("vehicleType");
+        String paymentMethod = request.getParameter("paymentMethod");
 
-        // Calculate ride fare (Example: $2 per km)
-        double fare = distance * 2.0;
-
-        BookingDAO bookingDAO = new BookingDAO();
-        boolean success = bookingDAO.bookRide(username, pickup, dropoff, distance, fare);
+        RideDAO rideDAO = new RideDAO();
+        boolean success = rideDAO.bookRide(username, pickup, dropoff, vehicleType, paymentMethod);
 
         if (success) {
-            response.sendRedirect("viewRides.jsp?success=1&fare=" + fare);
+            response.sendRedirect("viewRide.jsp");
         } else {
-            response.sendRedirect("bookRide.jsp?error=1");
+            response.getWriter().println("Error booking ride. Please try again.");
         }
     }
 }
